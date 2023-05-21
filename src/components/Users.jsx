@@ -7,7 +7,7 @@ class Users extends Component {
   };
 
   handleClick = async () => {
-    console.log(this.state.users);
+    console.log(this.state.users[0]);
   };
 
   async componentDidMount() {
