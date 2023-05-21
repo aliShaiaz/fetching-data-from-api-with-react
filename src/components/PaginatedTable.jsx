@@ -24,7 +24,6 @@ const PaginatedTable = () => {
   };
 
   const handleSave = (updatedUser) => {
-    // Perform the API call or update the data in your preferred way
     console.log("Saving changes:", updatedUser);
     setModalOpen(false);
     setIsEditing(false);
